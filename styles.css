@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color: red;
+    /* width: 10vw; */
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    height: 100vh;
+    background-color: grey;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    
+    /* align-items: center; */
+}
+.sidebar li{
+    list-style: none;
+    padding: 25px;
+    font-size: 20px;
+    
+}
+.navbar{
+    margin-top: 20px;
+}
+.a1{
+    color: white;
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    width: 90vw;
+
+}
+.intro{
+    height: 78vh;
+    border: 2px red solid;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    width:85vw;
+    margin:15px auto;
+    /* flex-wrap: wrap; */
+}
+img{
+    height: 78vh;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    
+}
+.name1{
+        font-size: 33px;
+}
+.about div{
+    margin-top: 3px;
+}
+.name{
+    font-size: 51px;
+    font-family: 'Climate Crisis', cursive;
+}
+.Pro{
+    font-size:28px;
+}
+.buttons-1 button{
+    margin-top:24px
+}
+.btn{
+    padding:10px;
+    background-color: blue;
+    color: white;
+    /* border: 0.5px solid black; */
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(255, 35, 35);
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+    box-shadow: 3px 3px rgb(30, 0, 255);
+}
+.navbar a {
+    text-decoration: none;
+}
+.navbar a li{
+    color: black;
+}
+
+.contactpng{
+    height: 350px;
+}
+.intro2{
+    height: 78vh;
+    border: 2px red solid;
+    padding-top: 60px;
+}
+
+.tb{
+    width:30vw;
+    padding:5px;
+    border-radius: 5px;
+    border:0.1px grey solid;
+    margin-top: 15px;
+}
+.tb1{
+    height: 60px;
+}
+.img1, .details{
+    display:inline-block;
+}
+.img1{
+    margin-top: 5px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    
+}
+.intro2 h1{
+    text-align: center;
+    margin-top:30px;
+}
+.details{
+    margin-top: 60px;
+}
+.btn2{
+padding-top: 15px;
+padding-bottom:15px ;
+background-color: blue;
+color: white;
+box-shadow: 3px 3px rgb(255, 35, 35);
+border-radius: 15px;
+}
+
+.btn2:hover{
+    background-color: white;
+    color: blue;
+    box-shadow: 3px 3px rgb(30, 0, 255);
+}
+
+.about{
+    padding:30px;
+}
+
+
+
+.hamberg img{
+    height: 15px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+.close{
+    margin-left: 85px;
+}
+.sidebarGo{
+    transform: translate(-132px,0px);
+    position: absolute;
+}
+
+@media (max-width:936px){
+.devimg{
+    display: none;
+}
+}
+.intro-3{
+        height: 78vh;
+        border: 2px red solid;
+        width:85vw;
+        margin-left:65px;
+        margin-top: 15px;
+        /* flex-wrap: wrap; */
+}
+.bar1{
+    background-color: red;
+    width:200px;
+    height: 5px;
+}
+.bar2{
+    background-color: rgb(21, 0, 255);
+    width:150px;
+    height: 5px;
+}
+.bar3{
+    background-color: rgb(255, 0, 170);
+    width:180px;
+    height: 5px;
+}
+.bar4{
+    background-color: rgb(251, 255, 0);
+    width:200px;
+    height: 5px;
+}
+.bar5{
+    background-color: rgb(20, 165, 255);
+    width:200px;
+    height: 5px;
+}
+.bar6{
+    background-color: rgb(255, 179, 37);
+    width:100px;
+    height: 5px;
+}
+.bar7{
+    background-color: rgb(145, 170, 64);
+    width:140px;
+    height: 5px;
+}
+.bar8{
+    background-color: rgb(0, 251, 255);
+    width:190px;
+    height: 5px;
+}
